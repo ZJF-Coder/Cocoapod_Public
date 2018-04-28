@@ -26,6 +26,8 @@
     textView.placeHolderColor = [UIColor redColor];
     textView.textFont = [UIFont systemFontOfSize:20];
     [self.view addSubview:textView];
+    
+    NSLog(@"change");
 }
 
 

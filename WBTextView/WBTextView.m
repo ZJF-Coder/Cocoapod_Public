@@ -15,6 +15,7 @@
     if (self = [super initWithFrame:frame]) {
         self.placeHolderColor = [UIColor lightGrayColor];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textDidChange) name:UITextViewTextDidChangeNotification object:self];
+        NSLog(@"change");
     }
     return self;
 }
